@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+    <!-- IMPORTING ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>IISGA Landing Page</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+
+        <img src="img/logo.png" alt="Logo IISGA" class="logo">
+        <img src="img/logo2.png" alt="Logo IISGA" class="logo2">
+
+        <input type="checkbox" id="nav-check">
+        <label for="nav-check" class="nav-toggler">
+            <span></span>
+        </label>
+
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav__item"><a href="#" class="nav__link">Formation Initiale</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Formation Continue</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+
+                <button class="cta">Se Connecter</button>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="main">
+        <div class="container" id="container">
+            <div class="content">
+                <div class="header-form">
+                    <a href="#body" class="popup__close">&times;</a>
+                    <img src="img/logo2.png" alt="Logo IISGA" class="logo-two">
+                    <h2>Le parcours des professionnels</h2>
+                </div>
+
+                <form class="form" id="form">
+                    <div class="form-control">
+                        <label>Prenom: </label>
+                        <input type="text" placeholder="adilelmobachi" id="username">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+
+                    <div class="form-control">
+                        <label>Email: </label>
+                        <input type="email" placeholder="adilelmoba20@gmail.com" id="email">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+
+                    <div class="form-control">
+                        <label>Mot de passe: </label>
+                        <input type="password" placeholder="Mot de passe" id="password">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+
+                    <div class="form-control">
+                        <label>Repeter le Mot de passe: </label>
+                        <input type="password" placeholder="S'il vous plait! repetez le mot de passe" id="password2">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error message</small>
+                    </div>
+
+                    <button id="btn" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    <main>
+
+
+    <div class="wrapper">
+        <div class="info">
+            <h1>L'Excellence en Formation<br>  Professionnelle depuis 1980</h1>
+            <p>Le Groupe IISGA Maroc, établissement accrédité par l’état et autorisé sous le N° 3/02/1/2015, <br>  a vu le jour en octobre 2015 grâce à la fusion de deux importants établissements de Formation <br>  de grande renommée à savoir l’Ecole PIGIER EL Jadida, fondée en 1980 et l’Ecole IGIAM, fondée en 2007.</p>
+            <a href="#container">Enregistrez-vous!</a>
+        </div>
+
+        <div class="img-box">
+            <img src="img/pattern.png" class="img back-img">
+            <img src="img/girl.png" class="img main-img">
+        </div>
+    </div>
+
+
+    
+<script src="main.js"></script>
+</body>
+</html>
